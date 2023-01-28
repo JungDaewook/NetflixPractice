@@ -1,0 +1,37 @@
+#ContentDetail {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    height: 300px;
+    padding: 50px 0;
+    border-bottom: 5px solid rgb(83, 83, 83);
+
+    .content-text-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+
+        .content-text {
+
+            &.big {
+                font-size: 50px;
+                margin-bottom: 15px;
+            }
+
+            &.small {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .content-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        height: 200px;
+        width: 350px;
+        background-color: white;
+    }
+}

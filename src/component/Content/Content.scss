@@ -1,0 +1,156 @@
+#Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+    .content-start-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 100px;
+        border-bottom: 5px solid rgb(83, 83, 83);
+
+        .start-header-wrapper {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            margin-top: 20px;
+
+            .logo-wrapper {
+                font-size: 32px;
+                font-weight: bold;
+                color: red;
+            }
+
+            .btn-wrapper {
+                display: flex;
+
+                .language-btn {
+                    padding: 4px 8px;
+                    margin-right: 20px;
+                    border: 1px solid white;
+                    cursor: pointer;
+                }
+
+                .login-btn {
+                    padding: 4px 8px;
+                    background-color: red;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .input-text-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 150px;
+
+            .text-row {
+                padding: 5px 0;
+                font-size: 24px;
+
+                &.big {
+                    font-size: 44px;
+                }
+            }
+        }
+
+        .input-wrapper {
+            display: flex;
+            width: 600px;
+            margin-top: 20px;
+
+            .email-input {
+                width: calc(100% - 200px);
+                height: 50px;
+                padding: 0;
+            }
+
+            input:focus {
+                outline: none;
+            }
+
+            input::placeholder {
+                padding-left: 10px;
+            }
+
+            .start-btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 200px;
+                height: 54px;
+                background-color: red;
+            }
+        }
+    }
+
+    .content-detail-wrapper {
+
+        width: 100%;
+    }
+
+    .content-qna-wrapper {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .qna-title-wrapper {
+            padding: 50px;
+            font-size: 50px;
+        }
+
+        .qna-component-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .readytext-wrapper {
+            margin-top: 150px;
+            padding: 5px 0;
+            font-size: 24px;
+
+        }
+
+        .input-email-wrapper {
+            display: flex;
+            width: 600px;
+            margin-top: 20px;
+
+            .email-input {
+                width: calc(100% - 200px);
+                height: 50px;
+                padding: 0;
+            }
+
+            input:focus {
+                outline: none;
+            }
+
+            input::placeholder {
+                padding-left: 10px;
+            }
+
+            .start-btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 200px;
+                height: 54px;
+                background-color: red;
+            }
+        }
+    }
+}

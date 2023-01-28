@@ -1,0 +1,34 @@
+#Qna {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 5px 0px;
+    background-color: rgb(48, 48, 48);
+
+    .qna-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px;
+
+        .qna-text-wrapper {
+            font-size: 40px;
+        }
+
+        .qna-button-wrapper {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 60px;
+            cursor: pointer;
+        }
+    }
+
+    .qna-answer {
+        padding: 20px 10px;
+        border-top: 5px solid black;
+        display: flex;
+        width: 100%;
+        font-size: 40px;
+    }
+}
